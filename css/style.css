@@ -37,6 +37,28 @@ nav{
     
 }
 
+main {
+    display: flex;
+}
+
 main div{
-    margin: 1rem;
+    border: 0.1rem solid black;
+    width: 65vw;
+}
+
+main div p{
+    font-size: 1.8rem;
+    text-align: justify;
+    margin: 10px;
+}
+
+main aside{
+    border: 0.1rem solid black;
+    width: 35vw;
+}
+
+aside p{
+    font-size: 1.8rem;
+    text-align: justify;
+    margin: 10px;
 }

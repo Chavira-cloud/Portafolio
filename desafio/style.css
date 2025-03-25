@@ -8,42 +8,47 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    font-size: 1.6rem;
+}
+
 .container{
-    background-color: black;
-    text-align: center;
-    padding: 10px ;
+border:  0.3rem solid #000000;
+display: flex;
+align-items: center;
+height: 50vh;
 }
 
-.logo, .nav {
-    display: inline-block; /* Alinea los elementos en la misma línea */
-    vertical-align: middle; /* Asegura que estén alineados verticalmente */
+.box{
+    width: 10rem;
+    height: 10rem;
 }
 
-.logo {
-    text-align: left; /* Asegura que el logo quede alineado a la izquierda */
+.box1 {
+background-color: blue;
+order: 1;
 }
 
-.logo p{
-    color: white;
-    font-size: 20px;
-    margin:0;
+.box2 {
+    background-color: brown;
+    order: 3;
 }
 
-.nav {
-    width: 65%; /* Define un ancho para el menú */
-    text-align: right; /* Asegura que el menú quede alineado a la derecha */
+.box3 {
+    background-color: coral;
+
 }
 
-.nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.box4 {
+    background-color: chartreuse;
 }
-.nav ul li{
-    display: inline-block;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    margin:0 auto ;
-    padding:0 20px ;
+
+.box5 {
+    background-color: blueviolet; 
+    order: 4;
+}
+
+.box6 {
+    background-color: aqua;
+    order: 2;
 }

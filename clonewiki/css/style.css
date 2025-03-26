@@ -1,0 +1,82 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+main .section-encabezado{
+    position: absolute;
+}
+
+main .section-encabezado h1{
+    font-size:3.2rem ;
+    margin: 0;
+}
+    
+main .section-encabezado span{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0 1.6rem;
+}
+    
+main .idiomas-left{
+    display: block;
+    margin: 11vh 0;
+}
+
+main .idiomas-left h6{
+    color: #88a3e8;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+main .idiomas-left .idioma-esp{
+    position: absolute;
+    top: 11%;
+    right: 58%;
+    padding: 0 auto;
+}
+
+main .seccion-img{
+    padding: 12rem 2rem;
+}
+
+main .img-wiki{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+} 
+
+main .img-wiki img{
+    width: 200px;
+    height: 200px;
+}
+
+main .idiomas-right{
+    display: block;
+    margin: 11vh 0;
+}
+
+
+main .idiomas-right{
+    display: block;
+    margin: 11vh 0;
+}
+
+main .idiomas-right h6{
+    color: #88a3e8;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.7rem;
+}

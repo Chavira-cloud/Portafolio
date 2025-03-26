@@ -42,7 +42,6 @@ main {
 }
 
 main div{
-    border: 0.1rem solid black;
     width: 65vw;
 }
 
@@ -53,7 +52,6 @@ main div p{
 }
 
 main aside{
-    border: 0.1rem solid black;
     width: 35vw;
 }
 
